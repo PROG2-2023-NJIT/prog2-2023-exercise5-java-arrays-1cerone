@@ -41,7 +41,7 @@ public class App
       String [] gender = {"Male", "Female", "Other"};
      int [] age = {43, 32, 21};
       int size = 3;
-        public FlightBooking(int totalTickets) {
+        public FlightBooking(int totalTickets){
       this.totalTickets = totalTickets;
        this.passengerFullName = new String[totalTickets];
       this.passengerGender = new String[totalTickets];
@@ -448,5 +448,6 @@ public class App
                     setTicketNumber(i);
                 }
             }
+    }
     }
 }
