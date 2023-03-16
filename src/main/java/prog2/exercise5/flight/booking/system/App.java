@@ -11,7 +11,7 @@ public class App
     /**
      * @param args
      */
-    public  void main( String[] args )
+    public static  void main( String[] args )
     {String flightCompany;
      String flightID;
      LocalDate departureDate;
@@ -48,7 +48,7 @@ public class App
        this.passengerAge = new int[totalTickets];
        this.ticketNumber = new String[totalTickets];
       }
-        enum TripType{
+        enum TripType{ 
        ONE_WAY,RETURN
      }
          enum BookingClass{
@@ -448,6 +448,5 @@ public class App
                     setTicketNumber(i);
                 }
             }
-    }
     }
 }
