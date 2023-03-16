@@ -2,6 +2,9 @@ package prog2.exercise5.flight.booking.system;
 
 import exercise3.flight.booking.system.FlightBooking;
 
+package prog2.exercise4.flight.booking.system;
+import exercise3.flight.booking.system.FlightBooking;
+
 /**
  * Hello world!
  *
@@ -41,9 +44,9 @@ public class App
       String [] gender = {"Male", "Female", "Other"};
      int [] age = {43, 32, 21};
       int size = 3;
-        public FlightBooking(int totalTickets){
+        public FlightBooking(int totalTickets){ 
       this.totalTickets = totalTickets;
-       this.passengerFullName = new String[totalTickets];
+       this.passengerFullName = new String[totalTickets]; 
       this.passengerGender = new String[totalTickets];
        this.passengerAge = new int[totalTickets];
        this.ticketNumber = new String[totalTickets];
@@ -431,7 +434,7 @@ public class App
                 }
             }
         
-            public void reserveTickets() {
+            public void reserveTickets() { 
         
                 for (int i = 0; i < totalTickets; i++) {
                     System.out.println("Enter details for passenger " + (i + 1));
@@ -449,4 +452,3 @@ public class App
                 }
             }
     }
-}
